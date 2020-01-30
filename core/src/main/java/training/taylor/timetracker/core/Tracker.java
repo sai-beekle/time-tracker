@@ -1,7 +1,7 @@
 package training.taylor.timetracker.core;
 
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import training.taylor.timetracker.core.dao.TimeEntry;
 
 import java.util.List;
@@ -31,6 +31,7 @@ public class Tracker {
 
         } catch (Exception e) {
 
+ 
         }
 
         boolean valid = false;
